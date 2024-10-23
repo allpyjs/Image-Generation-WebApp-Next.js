@@ -1,0 +1,16 @@
+{
+  "name": "azure",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.3.0",
+    "@azure/storage-blob": "^12.13.0",
+    "axios": "^1.6.8",
+    "openai": "^4.31.0"
+  },
+  "main": "src/functions/*.js"
+}
